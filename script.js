@@ -42,10 +42,10 @@ $(document).ready(function () {
                 '<tr>' +
                     '<th scope="row">' +
                         value['FIRST NAME'] +
-                    '</th>' + 
+                    '</th>' +
                     '<td>' +
                         value['LAST NAME'] +
-                    '</td>' +  
+                    '</td>' +
                     '<td>' +
                         '<span class="badge badge-primary badge-pill p-2">' +
                             value.AGE +
@@ -88,8 +88,8 @@ $(document).ready(function () {
 
                 $('#showCSV').append(
 
-                    '<li class="list-group-item d-flex justify-content-between align-items-center">' + 
-                        
+                    '<li class="list-group-item d-flex justify-content-between align-items-center">' +
+
                         '<span style="width: 15%; font-size: 1rem; font-weight: bold; color: #37474F">' +
                             value['FIRST NAME'] +
                         '</span>' +
